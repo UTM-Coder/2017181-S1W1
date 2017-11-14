@@ -1,0 +1,32 @@
+.p2 {
+	font-family: Arial, Helvetica, sans-serif;
+	margin-left: 30px;
+	color: #28B5B5;
+}
+h1{
+	color: #FE0101;
+	animation: colorchange 2s infinite;
+}
+h2{
+	font-family: Arial, Helvetica, sans-serif;
+	color: #5B28B5;
+}
+ul{
+	font-family: Arial, Helvetica, sans-serif;
+	color: #28B5B5;
+}
+.p1 {
+	font-family: Arial, Helvetica, sans-serif;
+	margin-left: 30px;
+	color: #FE0101;
+}
+body{
+	background-color:#ff99cd;
+}
+@keyframes colorchange{
+	0%   {color: red;}
+    25%  {color: yellow;}
+    50%  {color: blue;}
+    75%  {color: green;}
+    100% {color: red;}
+}

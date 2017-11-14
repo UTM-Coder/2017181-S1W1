@@ -1,0 +1,29 @@
+h1{
+	color: #b30000;
+	font-family: Arial, Helvetica, sans-serif;
+}
+p{
+	font-family: Arial;
+	margin-left: 30px;
+	color: red;
+	animation: colorchange2 2s infinite;
+}
+div{
+	border: 1px solid black;
+	padding-bottom: 50px;
+	animation: colorchange 2s infinite;
+}
+@keyframes colorchange{
+	0%   {background: red;}
+    25%  {background: yellow;}
+    50%  {background: blue;}
+    75%  {background: green;}
+    100% {background: red;}
+}
+@keyframes colorchange2{
+	0%   {color: blue;}
+    25%  {color: green;}
+    50%  {color: red;}
+    75%  {color: yellow;}
+    100% {color: blue;}
+}
